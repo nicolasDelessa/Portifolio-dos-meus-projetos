@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@400;500;600;700&family=Candal&display=swap');
+
+:root {
+--cor-principal: #0f718f ;
+--cor-secundaria: #ef8400;
+--cor-destaque: #127a00;
+--cor-tercearia: #72ff5a;
+}
+
+body {
+font-family: 'Candal static', sans-serif;
+color: var(--cor-principal);
+}
+
+h1, h2, h5 {
+    color: var(--cor-secundaria);
+    font-weight: 700;
+}
+
+.Lead, .btn-link {
+    color: var(--cor-destaque);
+}
+
+a, .btn-link:hover {
+    color: var(--cor-tercearia);
+}
+
+a:hover {
+color: var(--cor-destaque);
+}

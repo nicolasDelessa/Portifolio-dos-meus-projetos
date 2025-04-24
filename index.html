@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-DQvkBjpPgn7RC31MCQoOeC9TI2kdqa4+BSgNMNj8v77fdC77Kj5zpWFTJaaAoMbC" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="style.css">
+    <title>Meu Portfólio</title>
+</head>
+<header class="container text-center">
+
+    <body>
+        <img src="img/perfil.png" alt="Avatar de Nicolas" class="rounded-circle" width="200" height="200" alt="..." srcset="">
+        <p class="lead">Eu sou Nicolas_</p>
+        <h1>Estudo programação</h1>
+        <p>Sou estudante do Colégio Dr Marins Alves de Camargo e desenvolvo projetos de JavaScript, HTML, CSS e no
+            Sratch.Veja os projetos que já desenvolvi!</p>
+        <p>Minhas habilidades:</p>
+        <div>
+            <p class="badge text-bg-secondary">HTML</p>
+            <p class="badge text-bg-secondary">CSS</p>
+            <p class="badge text-bg-secondary">JavaScript</p>
+            <p class="badge text-bg-secondary">Scratch</p>
+        </div>
+</header>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YUe2LzesAfftltw+PEaao2tjU/QATaW/rOitAq67e0CT0Zi2VVRL0oC4+gAaeBKu"
+    crossorigin="anonymous"></script>
+    <main class="container mt-5">
+        <h2>Meus Projetos</h2>
+        <div class="row">
+
+            <!-- Projeto 1 -->
+<div class="col-md-4">
+    <div class="card">
+        <img src="img/naves.png" class="card-img-top" alt="imagem do projeto das naves">
+        <div class="card-body">
+          <h5 class="card-title">Jogo das naves Alura: plataforma estilo Space Invaders</h5>
+          <p class="card-text">Um jogo criado por mim utilizando o site Scratch e o curso Alura, aonde o objetivo é atirar enquanto desvia das outras naves espaciais.
+          </p>
+          <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja o projeto</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Projeto 2 -->
+      <div class="col-md-4">
+        <div class="card">
+            <img src="img/pong.png" class="card-img-top" alt="imagem do projeto do pong">
+            <div class="card-body">
+              <h5 class="card-title">Jogo do Pong Alura: </h5>
+              <p class="card-text">Um jogo simples de ping pong, no qual pode ser jogado contra a CPU ou um amigo.
+              </p>
+              <button type="button" class="btn btn-link"data-bs-toggle="modal" data-bs-target="#modal2">Veja o projeto</button>
+            </div>
+        </div>
+    </div>
+
+        <!--Projeto 3  -->
+        <div class="col-md-4">
+            <div class="card">
+                <img src="img/valedosbaixinhos.png" class="card-img-top" alt="imagem do projeto dos anoes">
+                <div class="card-body">
+                  <h5 class="card-title">Vale dos baixinhos</h5>
+                  <p class="card-text">O site perfeito para os fãs de anões, onde tem vários tipos e modelos.
+                  </p>
+                  <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja o projeto</button>
+                </div>
+            </div>
+        </div>
+</main>
+
+<!-- Modal 1 -->
+<div class="modal" id="modal1" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Jogo das naves Alura: plataforma estilo Space Invaders</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Um jogo criado por mim utilizando o site Scratch e o curso Alura, aonde o objetivo é atirar enquanto desvia das outras naves espaciais.</p>
+<img src="img/naves.png" alt="imagem representativa das naves">
+        </div>
+        <div class="modal-footer">
+          <a href="">Ver projeto ao vivo</a>
+          <a href="">Ver código do projeto</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 2 -->
+<div class="modal" id="modal2" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Jogo do Pong Alura:</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Um jogo simples de ping pong, no qual pode ser jogado contra a CPU ou um amigo.</p>
+<img src="img/pong.png" alt="imagem representativa do pong">
+        </div>
+        <div class="modal-footer">
+          <a href="">Ver projeto ao vivo</a>
+          <a href="">Ver código do projeto</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+   <!-- Modal 3 -->
+<div class="modal" id="modal3" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Vale dos Baixinhos</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>O site perfeito para os fãs de anões, onde tem vários tipos e modelos.</p>
+<img src="img/valedosbaixinhos.png" alt="imagem representativa do Vale dos baixinhos">
+        </div>
+        <div class="modal-footer">
+          <a href="">Ver projeto ao vivo</a>
+          <a href="">Ver código do projeto</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<footer class="container py-5">
+<h2>Entre em contato</h2>
+<div>
+    <i class="bi bi-github"></i>
+<a href="https://github.com/nicolasDelessa">Github</a>
+</div>
+<p class="my-5"> © Copyright 2025. Produzido por Nicolas de Lessa</p>
+</footer>
